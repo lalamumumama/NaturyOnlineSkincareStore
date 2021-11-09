@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Natury</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+        body {
+            font-family: 'Raleway';
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            background-color: #a8a8a8;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .navbar-brand img {
+            width: 100px;
+        }
+
+        .form-inline img {
+            height: 35px;
+            margin-left: 1em;
+            margin-right: 0.25em;
+        }
+
+        .nav-item {
+            margin-left: 2em;
+            margin-right: 2em;
+            font-size: 1.25em;
+        }
+
+        .category img {
+            width: 80%;
+            margin-left: 5em;
+        }
+
+        .link-dark img {
+            height: 35px;
+            margin-left: 0.25em;
+            margin-right: 0.25em;
+        }
+
+        .checked {
+            color: orange;
+        }
+
+        .bigstar {
+            transform: scale(2);
+            margin: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <a class="navbar-brand">
+            <img src="image/leaf.png" alt="">
+            <div style="display: inline-grid; grid-template-rows: 50% 50%;">
+                <label style="font-size: 2em; color: white;">Natury</label>
+                <label style="font-size: 1em; color: white;">Skincare for your
+                    Skin</label>
+            </div>
+        </a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" style="border-radius: 20px; width: 250px;" type="search"
+                placeholder="Search" aria-label="Search">
+            <img src="image/account.png" alt="">
+            <label style="font-size: 1em; color: white;" for="">mumu</label>
+            <img src="image/cart.png" alt="">
+        </form>
+    </nav>
+    <hr style="margin: 0;">
+
+
+    <!-- navbar menu -->
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
+            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: 1em; color: white;" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="font-size: 1em; color: white;" href="#" id="dropdown08"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown08">
+                        <a class="dropdown-item" href="#">Toner</a>
+                        <a class="dropdown-item" href="#">Anti-Aging</a>
+                        <a class="dropdown-item" href="#">Body Lotion</a>
+                        <a class="dropdown-item" href="#">Acne</a>
+                        <a class="dropdown-item" href="#">Cleanser</a>
+                        <a class="dropdown-item" href="#">Serum</a>
+                        <a class="dropdown-item" href="#">Sunscreen</a>
+                        <a class="dropdown-item" href="#">Moisturizer</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: 1em; color: white;" href="#">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- product detail -->
+    <div style="display: flex; justify-content: center; margin-top: 5em;margin-bottom: 5em;">
+        <div class="category" style="width: 80%;">
+            <div class="row">
+                <div class="col pic"><img src="image/c.jpg" alt=""></div>
+                <div class="col pic">
+                    <h1>Origin Mega Mushroom</h1>
+                    <h2 style="display: inline;margin-right: 10em;">1025฿</h2>
+                    <span><span class="fa fa-star bigstar checked"></span>
+                        <span class="fa fa-star bigstar checked"></span>
+                        <span class="fa fa-star bigstar checked"></span>
+                        <span class="fa fa-star bigstar checked"></span>
+                        <span class="fa fa-star bigstar"></span></span>
+                    <p style="margin: 1em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <label for="" style="font-size:1.5em;margin-right: 1em;">Amount</label>
+                    <button style="border-radius: 20px; background-color: gray;color: white;">-</button>
+                    <input type="text" style="width: 10%; border-radius: 20px;">
+                    <button style="border-radius: 20px;background-color: gray;color: white;">+</button>
+                    <br>
+                    <div style="display: flex; justify-content: center; margin: 1em;">
+                        <button type="button" class="btn btn-secondary"
+                            style="width: 80%; border-radius: 10px; font-size: 1.25em;">ADD TO
+                            CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- description -->
+    <h1 style="margin-left: 2em;">Description</h1>
+    <hr style="background-color: black; width: 90%;">
+    <p style="margin: 2.5em;padding-left: 5em;padding-right: 5em;">Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod
+        tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit, sed do eiusmod
+        tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod
+        tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit, sed do eiusmod
+        tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Repellendus qui fugiat neque corporis delectus autem cum optio quis? Dolorem accusantium et rerum autem tenetur
+        libero soluta nesciunt? Voluptate, ullam officiis!</p>
+
+
+    <!-- review -->
+    <h1 style="margin-left: 2em;">Review</h1>
+    <hr style="background-color: black; width: 90%;">
+    <span><span class="fa fa-star bigstar checked" style="margin-left: 6em;"></span>
+        <span class=" fa fa-star bigstar checked"></span>
+        <span class="fa fa-star bigstar checked"></span>
+        <span class="fa fa-star bigstar checked"></span>
+        <span class="fa fa-star bigstar"></span></span>
+    <label for="" style="font-size: 2em;margin-left: 0.25em;">4.8</label>
+    <div style="display: flex; justify-content: center;">
+        <div style="width: 80%; background-color: white;margin: 1em;padding: 1em;">
+            <img src="image/user.png" alt="" style="width: 30px">
+            <label for="">mumumama</label>
+            <p style="margin: 1em; margin-left: 2em;">Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit.
+                Impedit quasi ratione
+                saepe incidunt. Ea
+                nostrum ad, et, odio excepturi culpa, minima molestias magnam quam itaque eligendi ipsa voluptatibus
+                reiciendis? Iure.
+                Soluta perferendis totam eius nemo error quas repudiandae cupiditate voluptatum? Temporibus ab, rerum
+                obcaecati, non animi quisquam voluptate, a dolores soluta assumenda ex nemo officiis vero voluptas
+                officia eveniet dolor.
+                Beatae eaque repellendus aperiam optio a corrupti unde non dolorem esse, odio iusto ducimus provident,
+                velit quidem. Reprehenderit sapiente modi, temporibus numquam recusandae natus minus! Obcaecati iusto
+                quidem quae illum!</p>
+            <span style="margin-left: 2em;">
+                <span class="fa fa-star checked"></span>
+                <span class=" fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+            </span>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <div style="width: 80%; background-color: white;margin: 1em;padding: 1em;">
+            <img src="image/user.png" alt="" style="width: 30px">
+            <label for="">mumumama</label>
+            <p style="margin: 1em; margin-left: 2em;">Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit.
+                Impedit quasi ratione
+                saepe incidunt. Ea
+                nostrum ad, et, odio excepturi culpa, minima molestias magnam quam itaque eligendi ipsa voluptatibus
+                reiciendis? Iure.
+                Soluta perferendis totam eius nemo error quas repudiandae cupiditate voluptatum? Temporibus ab, rerum
+                obcaecati, non animi quisquam voluptate, a dolores soluta assumenda ex nemo officiis vero voluptas
+                officia eveniet dolor.
+                Beatae eaque repellendus aperiam optio a corrupti unde non dolorem esse, odio iusto ducimus provident,
+                velit quidem. Reprehenderit sapiente modi, temporibus numquam recusandae natus minus! Obcaecati iusto
+                quidem quae illum!</p>
+            <span style="margin-left: 2em;">
+                <span class="fa fa-star checked"></span>
+                <span class=" fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+            </span>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <div style="width: 80%; background-color: white;margin: 1em;padding: 1em;">
+            <img src="image/user.png" alt="" style="width: 30px">
+            <label for="">mumumama</label>
+            <p style="margin: 1em; margin-left: 2em;">Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit.
+                Impedit quasi ratione
+                saepe incidunt. Ea
+                nostrum ad, et, odio excepturi culpa, minima molestias magnam quam itaque eligendi ipsa voluptatibus
+                reiciendis? Iure.
+                Soluta perferendis totam eius nemo error quas repudiandae cupiditate voluptatum? Temporibus ab, rerum
+                obcaecati, non animi quisquam voluptate, a dolores soluta assumenda ex nemo officiis vero voluptas
+                officia eveniet dolor.
+                Beatae eaque repellendus aperiam optio a corrupti unde non dolorem esse, odio iusto ducimus provident,
+                velit quidem. Reprehenderit sapiente modi, temporibus numquam recusandae natus minus! Obcaecati iusto
+                quidem quae illum!</p>
+            <span style="margin-left: 2em;">
+                <span class="fa fa-star checked"></span>
+                <span class=" fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+            </span>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; margin-top:2em;">
+        <div class="row border-bottom border-secondary" style="margin-bottom: 2em;width: 80%;">
+            <div class="col" style="display: flex; justify-content: center;">
+                <a href="" style="color: black; margin-bottom: 1em;">⋘Prev 1 2 3 4 5 6 7 8 9 10 Next⋙</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div
+        style="background-color: #a8a8a8; padding: 2em;padding-right: 0;padding-left: 0; padding-bottom: 0; margin: 0;">
+        <div class="container" style="padding: 2em; padding-right: 0;padding-left: 0; background-color: #a8a8a8;">
+            <label style="color: white; margin-left: 1em;" for="">SUBSCRIBE FOR SPECIAL OFFERS</label>
+            <form class="d-flex">
+                <input style="margin: 1em; margin-top:0; width: 25%;" class="form-control me-2" type="search"
+                    placeholder="E-mail" aria-label="Search">
+                <button style="margin: 1em; margin-left:0;margin-top:0;height: 50%;" class="btn btn-outline-success"
+                    type="submit">Subscrbe</button>
+            </form>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <span style="color: white;">© 2021 Company, Inc</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-dark" href="#"><img src="image/facebook_w.png" alt=""></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><img src="image/instagram_w.png" alt=""></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><img src="image/twitter_w.png" alt=""></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><img src="image/tiktok_w.png" alt=""></a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
